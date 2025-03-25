@@ -5,5 +5,5 @@ export GNUPGHOME="${XDG_CONFIG_HOME}"/gnupg
 export _JAVA_AWT_WM_NONREPARENTING=1
 export LESSHISTFILE=/dev/null
 export PATH="/usr/bin:/usr/sbin:/usr/local/bin:${HOME}/.local/bin"
-export PYTHONSTARTUP="${XDG_CONFIG_HOME}"/python/startup.py
+export PYTHON_HISTORY="${XDG_CACHE_HOME}"/python_history
 export SQLITE_HISTORY="${XDG_CACHE_HOME}"/sqlite_history
