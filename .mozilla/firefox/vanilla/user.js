@@ -1,0 +1,47 @@
+// Features & UI
+user_pref("browser.aboutConfig.showWarning", false);
+user_pref("browser.discovery.enabled", false);
+user_pref("browser.display.use_system_colors", false);
+user_pref("browser.download.always_ask_before_handling_new_types", true);
+user_pref("browser.download.alwaysOpenPanel", false);
+user_pref("browser.download.start_downloads_in_tmp_dir", true);
+user_pref("browser.download.useDownloadDir", true);
+user_pref("browser.eme.ui.enabled", false);
+user_pref("browser.link.open_newwindow", 3);
+user_pref("browser.link.open_newwindow.restriction", 0);
+user_pref("browser.newtabpage.enabled", false);
+user_pref("browser.places.speculativeConnect.enabled", false);
+user_pref("browser.search.suggest.enabled", false);
+user_pref("browser.shopping.experience2023.enabled", false);
+user_pref("browser.startup.homepage_override.mstone", "ignore");
+user_pref("browser.startup.page", 0);
+user_pref("browser.tabs.inTitlebar", 1);
+user_pref("browser.translations.automaticallyPopup", false);
+user_pref("browser.translations.enable", false);
+user_pref("browser.uitour.enabled", false);
+user_pref("browser.xul.error_pages.expert_bad_cert", true);
+user_pref("dom.disable_window_move_resize", true);
+user_pref("extensions.activeThemeID", "firefox-compact-dark@mozilla.org");
+user_pref("extensions.getAddons.showPane", false);
+user_pref("extensions.htmlaboutaddons.recommendations.enabled", false);
+user_pref("extensions.pocket.enabled", false);
+user_pref("extensions.webcompat-reporter.enabled", false);
+user_pref("intl.accept_languages", "en-US, en");
+user_pref("keyword.enabled", true);
+user_pref("layout.spellcheckDefault", 0);
+user_pref("media.eme.enabled", false);
+user_pref("privacy.sanitize.timeSpan", 0);
+user_pref("privacy.userContext.enabled", true);
+user_pref("privacy.userContext.ui.enabled", true);
+user_pref("signon.firefoxRelay.feature", "disabled");
+user_pref("signon.management.page.breach-alerts.enabled", false);
+
+// Performance
+user_pref("browser.cache.disk.enable", false);
+user_pref("browser.preferences.defaultPerformanceSettings.enabled", true);
+user_pref("browser.privatebrowsing.forceMediaMemoryCache", true);
+user_pref("layers.acceleration.disabled", false);
+user_pref("media.memory_cache_max_size", 65536);
+user_pref("network.predictor.enabled", false);
+user_pref("network.predictor.enable-prefetch", false);
+user_pref("network.prefetch-next", false);

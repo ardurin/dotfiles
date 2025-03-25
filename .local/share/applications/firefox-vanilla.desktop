@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=firefox -P Vanilla
+Icon=firefox
+Name=Firefox Vanilla
+StartupNotify=true
+Type=Application
