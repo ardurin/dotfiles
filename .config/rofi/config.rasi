@@ -1,0 +1,55 @@
+@theme "theme"
+configuration {
+	display-drun: "";
+	display-filebrowser: "";
+	drun-display-format: "{name}";
+	modi: "drun,filebrowser";
+	show-icons: true;
+}
+window {
+	background-color: @background;
+	cursor: "default";
+	fullscreen: true;
+	padding: 200px 300px;
+	transparency: "real";
+}
+mainbox {
+	background-color: transparent;
+	spacing: 10px;
+}
+inputbar {
+	border-radius: 10px;
+	padding: 10px;
+	spacing: 10px;
+}
+message {
+	background-color: transparent;
+	padding: 10px;
+}
+textbox {
+	background-color: transparent;
+	text-color: @text;
+}
+listview {
+	background-color: transparent;
+	columns: 2;
+	text-color: @text;
+}
+element {
+	background-color: transparent;
+	border-radius: 10px;
+	padding: 10px;
+	spacing: 10px;
+	text-color: @text;
+}
+element selected.normal {
+	background-color: @active-background;
+	text-color: @active-text;
+}
+element-icon {
+	background-color: transparent;
+}
+element-text {
+	background-color: transparent;
+	text-color: inherit;
+}

@@ -1,0 +1,6 @@
+* {
+	active-background: #62AEEFFF;
+	active-text: #000000FF;
+	background: #00000040;
+	text: #FFFFFFFF;
+}
