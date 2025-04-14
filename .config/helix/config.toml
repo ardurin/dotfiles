@@ -1,2 +1,3 @@
 [editor]
 cursorline = true
+soft-wrap = { enable = true }
