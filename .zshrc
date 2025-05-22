@@ -1,3 +1,6 @@
+autoload -Uz compinit
+compinit
+
 bindkey -v
 bindkey -v '^?' backward-delete-char
 bindkey '^R' history-incremental-search-backward
