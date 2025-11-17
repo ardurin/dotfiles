@@ -1,1 +1,9 @@
-.config/shell/profile
+export XDG_CACHE_HOME="${HOME}"/.cache
+export XDG_CONFIG_HOME="${HOME}"/.config
+export XDG_DATA_HOME="${HOME}"/.local/share
+export GNUPGHOME="${XDG_CONFIG_HOME}"/gnupg
+export _JAVA_AWT_WM_NONREPARENTING=1
+export LESSHISTFILE=/dev/null
+export PATH="/usr/bin:/usr/sbin:/usr/local/bin:${HOME}/.local/bin"
+export PYTHON_HISTORY="${XDG_CACHE_HOME}"/python_history
+export SQLITE_HISTORY="${XDG_CACHE_HOME}"/sqlite_history
