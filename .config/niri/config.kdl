@@ -50,4 +50,5 @@ layout {
 }
 prefer-no-csd
 screenshot-path "~/Pictures/Screenshots/%Y-%m-%d %H-%M-%S.png"
+spawn-at-startup "mako"
 spawn-sh-at-startup "swaybg -i ${XDG_DATA_HOME}/wallpapers/01.jpg"
