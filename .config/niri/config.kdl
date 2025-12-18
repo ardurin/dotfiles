@@ -13,7 +13,7 @@ binds {
 	Mod+L { set-column-width "+10%"; }
 	Mod+K { focus-column-left; }
 	Mod+J { focus-column-right; }
-	Mod+Space { maximize-column; }
+	Mod+Space { maximize-window-to-edges; }
 	Mod+Shift+Q { quit; }
 	Mod+Shift+W repeat=false { close-window; }
 	Mod+A { spawn-sh "rofi -show drun"; }
@@ -47,6 +47,10 @@ layout {
 		width 4
 	}
 	gaps 10
+}
+window-rule {
+	match app-id="firefox"
+	open-maximized-to-edges true
 }
 prefer-no-csd
 screenshot-path "~/Pictures/Screenshots/%Y-%m-%d %H-%M-%S.png"
