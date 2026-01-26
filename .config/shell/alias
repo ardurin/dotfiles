@@ -1,6 +1,6 @@
 alias ...='cd ../..'
 alias ..='cd ..'
-alias c='sed -z "s/\n$//g" | wl-copy'
+alias c='wl-copy -n'
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias ls.='ls -a1 | grep --color=never "^\.[^.]"'
