@@ -1,4 +1,4 @@
 #!/bin/sh
 battery --daemon &
 pipewire &
-niri
+niri-session
