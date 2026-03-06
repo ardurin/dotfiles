@@ -73,7 +73,3 @@ indent = { tab-width = 4, unit = "\t"}
 [[language]]
 name = "xml"
 indent = { tab-width = 4, unit = "\t"}
-
-[[language]]
-name = "zig"
-indent = { tab-width = 4, unit = "\t"}
