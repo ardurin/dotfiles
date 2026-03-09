@@ -37,6 +37,7 @@ user_pref("keyword.enabled", true);
 user_pref("layout.spellcheckDefault", 0);
 user_pref("media.eme.enabled", false);
 user_pref("media.webspeech.synth.enabled", false);
+user_pref("network.protocol-handler.external.mailto", false);
 user_pref("privacy.sanitize.timeSpan", 0);
 user_pref("privacy.userContext.enabled", true);
 user_pref("privacy.userContext.ui.enabled", true);
