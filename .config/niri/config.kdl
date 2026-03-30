@@ -16,12 +16,13 @@ binds {
 	Mod+Space { maximize-window-to-edges; }
 	Mod+Shift+Q { quit; }
 	Mod+Shift+W repeat=false { close-window; }
-	Mod+A { spawn-sh "rofi -show drun"; }
+	Mod+A { spawn "fuzzel"; }
 	Mod+B { show-hotkey-overlay; }
 	Mod+E { spawn-sh "bookmark ${XDG_DATA_HOME}/emojis"; }
 	Mod+F { toggle-window-floating; }
 	Mod+O repeat=false { toggle-overview; }
-	Mod+X { spawn-sh "rofi -show filebrowser"; }
+	Mod+P { spawn "fuzzel-pass"; }
+	Mod+X { spawn "fuzzel-fs"; }
 	Mod+Return { spawn "foot"; }
 	Print { screenshot-window; }
 	XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume @DEFAULT_AUDIO_SINK@ 0.1+"; }

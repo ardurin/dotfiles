@@ -1,0 +1,5 @@
+#!/bin/sh
+name=$(find "${XDG_DATA_HOME}"/keepys -type f -printf '%P\n' | fuzzel -d -p 'Account: ')
+[ -z "${name}" ] && exit
+secret=$(fuzzel -d --password --prompt-only='Password: ' | keepys get "${name}")
+[ $? = 0 ] && printf %s "${secret}" | wl-copy -no

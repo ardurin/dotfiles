@@ -1,0 +1,10 @@
+#!/bin/sh
+while :; do
+	entry=$((ls -1; echo ..) | fuzzel -d)
+	if [ -d "${entry}" ]; then
+		cd "${entry}"
+		continue
+	fi
+	[ -f "${entry}" ] && xdg-open "${entry}"
+	exit
+done
